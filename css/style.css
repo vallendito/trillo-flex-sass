@@ -173,6 +173,30 @@ body {
   padding: 2.5rem;
   color: var(--color-grey-light-4); }
 
+.gallery {
+  display: flex; }
+  .gallery__photo {
+    width: 100%;
+    display: block; }
+
+.overview {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--color-grey-light-2); }
+  .overview__heading {
+    font-size: 2.25rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1.5rem 3rem; }
+  .overview__stars {
+    margin-right: auto;
+    display: flex; }
+  .overview__icon-star, .overview__icon-location {
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: var(--color-primary); }
+
 .container {
   max-width: 120rem;
   margin: 8rem auto;
@@ -201,6 +225,5 @@ body {
 
 .hotel-view {
   background-color: #fff;
-  background-color: orangered;
   height: 80rem;
   flex: 1; }
